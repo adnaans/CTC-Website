@@ -1,8 +1,13 @@
-h1{
-	font-family: 'Raleway', sans-serif;
-}
+
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #DFEEF5;
+}
+
+#main{
+  color: #2C3E50;
 }
 
 .img-center {
@@ -13,8 +18,32 @@ footer {
     margin: 50px 0;
 }
 
+p {
+  font-size: 20px;
+}
+p.small {
+  font-size: 16px;
+}
+
 .blue{
-	color: blue;
+	color: #000066;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #18BC9C;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
 .navbar-custom {
@@ -95,5 +124,78 @@ footer {
 
 img{
 	float:left;
+
 	margin: 15px;
+}
+
+.jumbotron{
+	min-height: 400px;
+}
+
+hr.style18 {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+.team-image{
+  margin: 80px;
+}
+
+section {
+  padding: 100px 0;
+}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+section.success {
+  background: #18BC9C;
+  color: white;
+}
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
+
+hr{
+   background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 5px;
+}
+
+.make-me-blue{
+  background-color:  #18BC9C;
+}
+
+.thumbnail{
+  margin-right: 40px;
+}
+
+.article-button{
+  background-color: #18BC9C;
+  color: white;
+}
+
+.team{
+  color: #2C3E50;
+}
+
+.sub-heading{
+  color: #393E3C;
+}
+
+#team-heading{
+  font-size: 3em;
+}
+
+.team-hr{
+  background-color: #2C3E50;
 }

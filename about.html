@@ -1,14 +1,18 @@
+
 <!DOCTYPE html>
 <html lang = "en">
 <head>
 	<title>About Us</title>
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type = "text/css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link href = "css/style.css" rel = "stylesheet" type = "text/css">
 	<link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type = "text/css" rel = "stylesheet">
+	<link href = "css/about.css" rel = "stylesheet" type = "text/css">
+
 </head>
-<body>
+<body bgcolor="#E6E6FA">
 
 	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
@@ -27,13 +31,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Donate</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#page-top">About</a>
+                        <a href="gallery.html">Gallery</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="donate.html">Donate</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -42,75 +52,121 @@
         <!-- /.container-fluid -->
     </nav>
 
-
-
-
-
-
+    <br>
 
 
 	<div class="container">
 
-	<div class = "jumbotron" id = "sampleImage">
-		<img class = "thumbnail" src = "assets/sampleImage.jpg" style="width:300px;height:300px;">
-		<h1 class = "heading">Challenge to Conquer</h1>
-		<p class = "heading">This corporation is organized and operated exclusively for charitable purposes within the meaning of Section 501(c)(3) of United States Internal Revenue Code.</p>
-		<button class = "btn btn-default heading" src = "http://www.challengetoconquer.org/uploads/3/9/7/6/3976347/challengetoconquer.org_articles_of_incoporation.pdf">Articles of Incorporation</button>
+	<div class = "jumbotron">
+		<img class = "thumbnail" src = "img/editedLogo.png" style="width:300px;height:300px;">
+		<h1 class = "heading blue" id = "main">Challenge to Conquer</h1>
+		<p class = "heading sub-heading">This corporation is organized and operated exclusively for charitable purposes within the meaning of Section 501(c)(3) of United States Internal Revenue Code.</p>
+		<button class = "article-button btn heading" src = "http://www.challengetoconquer.org/uploads/3/9/7/6/3976347/challengetoconquer.org_articles_of_incoporation.pdf">Articles of Incorporation</button>
 	</div>
 
-        <!-- Introduction Row -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header blue">About Us
-                    <small>It's Nice to Meet You!</small>
-                </h1>
-                <p>We are a nonprofit giving money to mithra.. Trying to reabilitate mentally and physically challenged children in India.</p>
+	<hr>
+
+
+        <!-- About Section -->
+    <section class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Us</h2>
+                </div>
             </div>
         </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel metus congue, ultricies neque ac, lacinia nulla. Donec consequat nisi laoreet luctus aliquet. Donec elementum quam sit amet condimentum elementum. Quisque congue tempus tempor. Sed hendrerit nulla quis dapibus iaculis. </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Pellentesque sit amet urna imperdiet, molestie felis sit amet, feugiat eros. Vestibulum non metus quis sem commodo facilisis et vitae neque. Donec aliquam nulla purus, vitae semper turpis aliquam ac. Integer lobortis, enim in faucibus pellentesque, mi enim ultrices libero, ut eleifend elit dolor eu velit. Vivamus sit amet ex ut nisl ullamcorper imperdiet.</p>
+                </div>
+            </div>
 
-        <div class = "row">
-        	<div class="col-lg-12">
-                <h1 class="page-header blue">About Mithra</h1>
-                <p>MITHRA is a Sanskrit word meaning 'friendship'. Friendship to MITHRA means extending a warm welcome to the physically and mentally challenged children. MITHRA came into being on 19th March 1977. A unique feature of MITHRA is that it offers the differently abled a variety of services all under one roof: Special School, Occupational & Physiotherapy, Vocational Training, Residential facility, Psychiatry Department apart from an OPD that is open to the public.</p>
-                <a class = "btn btn-primary active" href = "http://mithra.org.in/about">Link To MITHRA's About Us Page</a>
+    </section>
+
+    <br>
+     <!-- About Mithra -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href = "http://mithra.org.in/about"><h2>About Mithra</h2></a>
+                    <hr class = "make-me-blue">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>MITHRA is a Sanskrit word meaning 'friendship'. Friendship to MITHRA means extending a warm welcome to the physically and mentally challenged children. MITHRA came into being on 19th March 1977. </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>A unique feature of MITHRA is that it offers the differently abled a variety of services all under one roof: Special School, Occupational & Physiotherapy, Vocational Training, Residential facility, Psychiatry Department apart from an OPD that is open to the public.</p>
+                </div>
+
+            </div>
         </div>
+    </section>
 
         <!-- Team Members Row -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header blue">Our Team</h2>
+                <h2 class="page-header text-center" id = "team-heading">Our Team</h2>
+                <hr class = "team-hr">
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center team-image" src="http://placehold.it/200x200" alt="">
+
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>Nagarajan Varadhan
-                    <small>Secretary, Board Member</small>
-                </h3>
-                <p>What does this team member to? This is also a great spot for social links!</p>
+                <img class="img-circle img-responsive img-center team-image" src="http://placehold.it/200x200" alt="">
+
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>Preetham Gopalaswamy
-                    <small>Treasurer, Board Member</small>
-                </h3>
-                <p>What does this team member to? This is also a great spot for social links!</p>
+                <img class="img-circle img-responsive img-center team-image" src="http://placehold.it/200x200" alt="">
+
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                <h3>Sachidanandan Sambandan
-                    <small>CEO, Chairman of Board</small>
+        </div>
+        <div class = "row">
+        	<div class = "col-lg-4 text-center">
+        		<h3 class = "team">Nagarajan Varadhan
+        			<div>
+                    	<small>Secretary, Board Member</small>
+                    </div>
                 </h3>
-                <p>What does this team member to? This is also a great spot for social links!</p>
-            </div>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        	</div>
+
+        	<div class = "col-lg-4 text-center">
+        		<h3 class = "team">Preetham Gopalaswamy
+        			<div>
+                    	<small>Treasurer, Board Member</small>
+                    </div>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        	</div>
+
+        	<div class = "col-lg-4 text-center tean">
+        		 <h3 class = "team">Sachidanandan Sambandan
+        		 	<div>
+                    	<small>CEO, Chairman of Board</small>
+                    </div>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        	</div>
 
         </div>
-
         <hr>
 
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Organized for Charitable purposes under United States IRS Section 501(c)(3)</p>
+                    <p class = "small">Organized for Charitable purposes under United States IRS Section 501(c)(3)</p>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -121,10 +177,18 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous">
+	</script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+	<!-- Theme JavaScript -->
+    <script src="js/about.js"></script>
+
 
 </body>
 </html>
