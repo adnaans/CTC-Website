@@ -133,3 +133,14 @@ label{
 .contact{
   background-attachment: fixed;
 }
+
+
+#contact-header{
+  font-size: 63px;
+  color: #2C3E50;
+}
+
+hr{
+  border-top: 1px solid #2C3E50;
+  color: #2C3E50;
+}
