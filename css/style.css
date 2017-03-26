@@ -12,6 +12,7 @@ body {
   color: #2C3E50;
 }
 
+
 .img-center {
 	margin: 0 auto;
 }
@@ -246,3 +247,15 @@ hr{
         -webkit-align-items: center;
         align-items: center;
     }
+
+    .navbar-main{
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+   -moz-transition: background 0.3s ease-in-out;
+   -o-transition: background 0.3s ease-in-out;
+   transition: background 0.3s ease-in-out;
+}

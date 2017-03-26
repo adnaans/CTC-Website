@@ -5,11 +5,8 @@
   <title>Home | Challenge To Conquer</title>
 
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href = "css/about.css" rel = "stylesheet">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/jquery.bxslider.min.js"></script>
-<!-- bxSlider CSS file -->
-<link href="js/jquery.bxslider.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -18,10 +15,11 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="shortcut icon" href="img/favicons/favicon.ico">
+  <script src="js/header.js"></script>
 
 </head>
 <body>
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom navbar-main">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -56,15 +54,13 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-  <div class="mainimg">
     <img src="img/main.png" style="width: 100%; margin:0px;">
-  </div>
   <br>
-  <div class="swiper-container">
+  <div class="swiper-container" id="slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
               <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
-                <img src="img/slideshow/01.jpg" style="height:500px;" alt="First slide">
+                <img src="img/slideshow/01.jpg" style="height:65%; width:65%;" alt="First slide">
                 <div style="display: table; height: 500px; overflow: hidden;">
                   <div style="display: table-cell; vertical-align: middle;">
                     <h3 style="vertical-align: middle;">
@@ -75,7 +71,9 @@
               </div>
           </div>
           <div class="swiper-slide">
-            <img src="img/slideshow/02.jpg" style="height: 500px; align: right;" alt="Second slide">
+            <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
+              <img src="img/slideshow/02.jpg" style="height: 65%; width:65%; align: right;" alt="Second slide">
+              </div>
           </div>
         </div>
         <!-- Add Pagination -->
@@ -101,9 +99,7 @@
     });
     </script>
 
-    <br>
-
-  <div class = "row gray" style="margin: 0px;">
+  <div class = "row gray" style="margin: 0px; margin-top:5px" >
     <div class="col-lg-12" style="text-align: center; padding-top:-10px; padding-bottom:20px;">
           <h1 class="page-header specialblue">Who Are We?</h1>
           <p style="text-align: center; font-size: 25px;">Challenge To Conquer is a US nonprofit that collects money for institutions and organizations in India that help disabled or poor individuals succeed and live a better life.</p>
@@ -112,7 +108,12 @@
     </div>
   </div>
 
-  <br><br>
+  <div class="video" style="padding-top:5px;">
+    <video width="50%" height="50%" controls>
+    <source src="../video/ctc-video.mp4" type="video/mp4">\
+    Your browser does not support the video tag.
+    </video>
+  </div>
 
   <div class="clearfix float-my-children blue">
     <img src="img/building.jpg" width=50%>
