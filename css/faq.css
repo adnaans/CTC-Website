@@ -165,3 +165,7 @@ hr{
     border: 0px solid #2C3E50;
     height: 5px;
 }
+
+img{
+  max-width: 300px;
+}
