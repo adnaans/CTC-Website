@@ -129,7 +129,7 @@ img{
 }
 
 .jumbotron{
-	min-height: 400px;
+	min-height: 300px;
 }
 
 
@@ -169,3 +169,4 @@ hr{
 img{
   max-width: 300px;
 }
+

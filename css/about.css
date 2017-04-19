@@ -6,6 +6,13 @@ body {
     background-color: #DFEEF5;
 }
 
+.row div .about-button{
+  background-color: white;
+  color: #18BC9C;
+  border-color: white;
+
+}
+
 #main{
   color: #2C3E50;
 }
@@ -171,10 +178,6 @@ hr{
     height: 5px;
 }
 
-.make-me-blue{
-  background-color:  #18BC9C;
-}
-
 .thumbnail{
   margin-right: 40px;
 }
@@ -199,3 +202,4 @@ hr{
 .team-hr{
   background-color: #2C3E50;
 }
+
