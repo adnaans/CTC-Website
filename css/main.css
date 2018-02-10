@@ -1,0 +1,91 @@
+
+@font-face {
+    src:url("../fonts/Monteserrat/Montserrat-Bold.ttf");
+    font-family: "Monteserrat" font-weight: 700;
+}
+
+@font-face {
+  src:url("../fonts/Monteserrat/Montserrat-SemiBold.ttf");
+  font-family: "Proxima Nova"; font-weight: 600;
+}
+
+@font-face {
+  src:url("../fonts/Monteserrat/Montserrat-Medium.ttf");
+  font-family: "Proxima Nova"; font-weight: 500;
+}
+
+@font-face {
+  src:url("../fonts/Monteserrat/Montserrat-Regular.ttf");
+  font-family: "Proxima Nova"; font-weight: 400;
+}
+
+@font-face {
+  src:url("../fonts/Monteserrat/Montserrat-Light.ttf");
+  font-family: "Proxima Nova"; font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    background: #fff;
+    color: #222;
+    padding: 10px
+}
+
+body {
+    font-family: 'Monteserrat';
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 0;
+    position: relative;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.no-outline:focus {outline:0;}
+
+.nav-spaced {
+    padding: 5px 10px 5px 10px;
+}
+
+.nav-item{
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+
+.nav-item.nav-link{
+    padding-top:0px;
+}
+
+@media screen and (max-width: 991px) {
+    .right{
+        position: relative;
+        right: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .right{
+        position: absolute;
+        right: 0;
+    }
+}
+
+#logo img{
+    height: 50px; width: 50px; margin: 0px;
+}
