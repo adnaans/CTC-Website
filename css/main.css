@@ -1,27 +1,27 @@
 
 @font-face {
-    src:url("../fonts/Monteserrat/Montserrat-Bold.ttf");
-    font-family: "Monteserrat" font-weight: 700;
+    src:url("../fonts/Montserrat/Montserrat-Bold.ttf");
+    font-family: "Montserrat" font-weight: 700;
 }
 
 @font-face {
-  src:url("../fonts/Monteserrat/Montserrat-SemiBold.ttf");
-  font-family: "Proxima Nova"; font-weight: 600;
+  src:url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+  font-family: "Montserrat"; font-weight: 600;
 }
 
 @font-face {
-  src:url("../fonts/Monteserrat/Montserrat-Medium.ttf");
-  font-family: "Proxima Nova"; font-weight: 500;
+  src:url("../fonts/Montserrat/Montserrat-Medium.ttf");
+  font-family: "Montserrat"; font-weight: 500;
 }
 
 @font-face {
-  src:url("../fonts/Monteserrat/Montserrat-Regular.ttf");
-  font-family: "Proxima Nova"; font-weight: 400;
+  src:url("../fonts/Montserrat/Montserrat-Regular.ttf");
+  font-family: "Montserrat"; font-weight: 400;
 }
 
 @font-face {
-  src:url("../fonts/Monteserrat/Montserrat-Light.ttf");
-  font-family: "Proxima Nova"; font-weight: 300;
+  src:url("../fonts/Montserrat/Montserrat-Light.ttf");
+  font-family: "Montserrat"; font-weight: 300;
 }
 
 * {
@@ -32,11 +32,11 @@
 html {
     background: #fff;
     color: #222;
-    padding: 10px
+    padding: 5px
 }
 
 body {
-    font-family: 'Monteserrat';
+    font-family: 'Montserrat';
 }
 
 h1 {
@@ -45,12 +45,32 @@ h1 {
     margin-bottom: 10px;
 }
 
+.leadin{
+    background: url("../img/main.png") no-repeat top center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 230px 0px 250px 0px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    height:550px;
+}
+
+.follow{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 nav{
     max-width: 900px;
     margin: auto;
     padding: 30px 0;
     position: relative;
+    font-family: 'Montserrat';
+
 }
 
 .navbar-toggler{
