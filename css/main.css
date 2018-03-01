@@ -79,7 +79,6 @@ h1 {
 
 .dimmed-msg{
     position: relative;
-    font-size: 50px;
     color: white;
     z-index: 1;
 }
@@ -98,9 +97,15 @@ p{
     font-weight: 400;
 }
 
-.cont-cust{
+.cont-cust1{
     padding-left: 15%;
     padding-right: 15%;
+    z-index: 1;
+}
+
+.cont-cust2{
+    padding-left: 55%;
+    padding-right: 5%;
     z-index: 1;
 }
 
@@ -110,6 +115,7 @@ p{
     font-size: 50px;
     height:550px;
     width: 100vw;
+    padding: 65px 0 65px 0;
 }
 
 nav{
