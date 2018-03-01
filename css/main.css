@@ -48,7 +48,7 @@ h1 {
     background: url("../img/main.png") no-repeat top center fixed;
     background-size: cover;
     font-size: 50px;
-    height:550px;
+    height:100vh;
     width: 100vw;
 }
 
@@ -59,7 +59,7 @@ h1 {
 
 .dimmedimg{
     margin: 0;
-    padding: 230px 0px 250px 0px;
+    padding: 40vh 0px 40vh 0px;
     color: white;
     text-align: center;
     font-size: 50px;
@@ -87,10 +87,9 @@ h1 {
 #follow{
     text-align: center;
     font-size: 50px;
-    height:200px;
-    width: 100vw;
     padding: 30px 0px 30px 0px;
     background-color: #83c225bd;
+    width: 100vw;
 }
 
 p{
