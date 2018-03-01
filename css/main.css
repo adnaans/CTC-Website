@@ -44,24 +44,29 @@ h1 {
     margin-bottom: 10px;
 }
 
-.leadin{
+#lead{
     background: url("../img/main.png") no-repeat top center fixed;
     background-size: cover;
-    margin: 0;
-    padding: 230px 0px 250px 0px;
-    color: white;
-    text-align: center;
     font-size: 50px;
     height:550px;
     width: 100vw;
-    position: relative;
 }
+
 
 .nav-spaced a{
     color:white;
 }
 
-.leadin:after{
+.dimmedimg{
+    margin: 0;
+    padding: 230px 0px 250px 0px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+
+.dimmedimg:after{
     content: '';
     position: absolute;
     top: 0;
@@ -69,22 +74,23 @@ h1 {
     left: 0;
     right: 0;
     display: block;
-    background-color: rgba(0, 0, 0, 0.39);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-.leadin-msg{
+.dimmed-msg{
     position: relative;
     font-size: 50px;
     color: white;
     z-index: 1;
 }
 
-.follow{
-    width: 100%;
-    height: 100%;
-    padding:  20px;
+#follow{
     text-align: center;
-    line-height: 2.5em;
+    font-size: 50px;
+    height:200px;
+    width: 100vw;
+    padding: 30px 0px 30px 0px;
+    background-color: #83c225bd;
 }
 
 p{
@@ -96,6 +102,7 @@ p{
 .cont-cust{
     padding-left: 15%;
     padding-right: 15%;
+    z-index: 1;
 }
 
 nav{
@@ -105,6 +112,7 @@ nav{
     background-color:#2C3E50;
     opacity: 0.4;
     color: white;
+    -webkit-transition: 0.5s;
 }
 
 .no-underline:hover{
