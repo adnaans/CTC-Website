@@ -42,10 +42,12 @@ h1 {
     font-size: 4rem;
     line-height: 1.5;
     margin-bottom: 10px;
+    font-familY: 'Montserrat';
+    font-weight: 500;
 }
 
 #lead{
-    background: url("../img/main.png") no-repeat top center fixed;
+    background: url("../img/santosh.png") no-repeat top center fixed;
     background-size: cover;
     font-size: 50px;
     height:100vh;
@@ -74,7 +76,7 @@ h1 {
     left: 0;
     right: 0;
     display: block;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
 .dimmed-msg{
@@ -98,19 +100,19 @@ p{
 }
 
 .cont-cust1{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 14%;
+    padding-right: 14%;
     z-index: 1;
 }
 
 .cont-cust2{
-    padding-left: 55%;
+    padding-left: 60%;
     padding-right: 5%;
     z-index: 1;
 }
 
 #donations{
-    background: url("../img/photo.jpg") no-repeat top center;
+    background: url("../img/class.jpg") no-repeat top center;
     background-size: cover;
     font-size: 50px;
     height:550px;
@@ -190,4 +192,9 @@ nav:hover{
 
 #logo img{
     height: 50px; width: 50px; margin: 0px;
+}
+
+#lead h1{
+    font-family: "Montserrat"!important;
+    font-weight: 400!important;
 }
