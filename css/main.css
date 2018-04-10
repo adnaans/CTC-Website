@@ -130,6 +130,10 @@ nav{
     -webkit-transition: 0.5s;
 }
 
+#graphic{
+    width: 100vw;
+}
+
 .no-underline:hover{
     text-decoration: none;
 }
