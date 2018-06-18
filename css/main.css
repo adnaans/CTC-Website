@@ -1,7 +1,7 @@
 
 @font-face {
     src:url("../fonts/Montserrat/Montserrat-Bold.ttf");
-    font-family: "Montserrat" font-weight: 700;
+    font-family: "Montserrat"; font-weight: 700;
 }
 
 @font-face {
@@ -85,13 +85,34 @@ h1 {
     z-index: 1;
 }
 
+.cont{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #follow{
     text-align: center;
     font-size: 50px;
     padding: 30px 0px 30px 0px;
-    background-color: #83c225bd;
+    background-color: #8effa7;
     width: 100vw;
 }
+
+.sel:hover{
+    background-color: rgb(132,194,37);
+    -webkit-transition: .25s;
+}
+
+.u-sel:hover{
+    background-color: #2C3E50;
+    color: white;
+    -webkit-transition: .25s;
+}
+
+.tabs{
+    width: 100%; display: table; table-layout: fixed; 
+}
+.tabs div{ display: table-cell; vertical-align: middle;}
 
 p{
     font-size: 25px;
@@ -111,6 +132,14 @@ p{
     z-index: 1;
 }
 
+.sel{
+    background-color: #8effa7;
+}
+
+u-sel{
+    background-color: white;
+}
+/* 
 #donations{
     background: url("../img/class.jpg") no-repeat top center;
     background-size: cover;
@@ -118,6 +147,13 @@ p{
     height:550px;
     width: 100vw;
     padding: 65px 0 65px 0;
+} */
+#int-d{
+    text-align: center;
+}
+
+#donations{
+    text-align: center;
 }
 
 nav{
