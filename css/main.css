@@ -107,10 +107,12 @@ h1 {
     background-color: #2C3E50;
     color: white;
     -webkit-transition: .25s;
+    cursor: pointer;
 }
 
 .tabs{
     width: 100%; display: table; table-layout: fixed; 
+    font-weight: 300!important;
 }
 .tabs div{ display: table-cell; vertical-align: middle;}
 
