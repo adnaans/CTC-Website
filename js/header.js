@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    console.log($('#1-t'));
+    
     $('#1-t').click(function (event){
         $('.sel').addClass('u-sel');
         $('.sel').removeClass('sel');

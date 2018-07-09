@@ -6,15 +6,16 @@
     <link rel="shortcut icon" href="img/favicons/favicon.ico">
     <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="/css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
     <title>Challenge to Conquer</title>
 
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
 
-    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -44,21 +45,70 @@
     </nav>
 
     <div id="lead" class="dimmedimg"><h1 class="dimmed-msg">We have a <font style="color: #a2d7ff;">Challenge </font> to <font style="color: #8effa7;">Conquer</font></h1></div>
-    <div id="follow">
+    
+    <div id="follow" class="cont">
       <div class="cont-cust1">
         <p style="margin-bottom:0">
-          We believe every child should have the right to live the life they deserve.
-            Our aim is to help rehabilitate physically and mentally challenged children in India.
-              With the help of generous contributions from our donors here in the United
+          With the help of generous contributions from our donors here in the United
                 States, we fund qualified initiatives and organizations providing rehabilitative services to challenged children in India.
         </p>
       </div>
     </div>
 
-    <div>
-        <div class="cont">
-            <h2 id="int-d">How your donations can help:</h2>
+    <div class="cont">
+      <div class="swiper-container" id="slider">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
+                  <div style="display: table; height: 500px; overflow: hidden;">
+                      <div style="display: table-cell; vertical-align: middle;">
+                        <h3 style="vertical-align: middle;">
+                          Donate to help disabled children in India.
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="img/DSC_0471.JPG" style="height: 100%; width: 50%; align: right;" alt="Second slide">
+                </div>
+              <div class="swiper-slide">
+                <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
+                  <div style="display: table; height: 500px; overflow: hidden;">
+                      <div style="display: table-cell; vertical-align: middle;">
+                        <h3 style="vertical-align: middle;">
+                          Donate to help disabled children in India.
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="img/DSC_0117.JPG" style="height: 100%; width:50%; align: right;" alt="First slide">
+                </div>
+              
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
         </div>
+
+       <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 5000,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+
+    <div class="cont">
         <div id="donations">
           <div class="tabs">
             <div id="1-t"class="sel"><h4>Accomodations</h4></div>
@@ -77,7 +127,7 @@
                 <img src="img/accomodations.JPG">
               </div>
             </div>
-            <div id="2-tw" class="row inactive-tw">
+            <div id="2-tw" class="row-cust inactive-tw">
               <div class="col tabimg">
                   <img src="img/rehabilitation.JPG">
               </div>
@@ -85,7 +135,7 @@
                 <p>"Put in text on rehabilitation"</p>
               </div>
             </div>
-            <div id="3-tw" class="row inactive-tw">
+            <div id="3-tw" class="row-cust inactive-tw">
               <div class="col tabtxt">
                 <p>"Put in text on meals"</p>
               </div>
@@ -93,7 +143,7 @@
                 <img src="img/meal.JPG">
               </div>
             </div>
-            <div id="4-tw" class="row inactive-tw">
+            <div id="4-tw" class="row-cust inactive-tw">
               <div class="col tabimg">
                   <img src="img/schoolsupplies.JPG">
               </div>
@@ -101,7 +151,7 @@
                 <p>"Put in text on school supplies"</p>
               </div>
             </div>
-            <div id="5-tw" class="row inactive-tw">
+            <div id="5-tw" class="row-cust inactive-tw">
               <div class="col tabtxt">
                 <p>"Put in text on medical care/supplies"</p>
               </div>
@@ -109,7 +159,7 @@
                 <img src="img/doctor-checkup.JPG">
               </div>
             </div>
-            <div id="6-tw" class="row inactive-tw">
+            <div id="6-tw" class="row-cust inactive-tw">
               <div class="col tabimg">
                 <img src="img/wheelchairs.JPG">
               </div>
@@ -121,8 +171,8 @@
         </div>
       </div>
 
-    <div id="vid">
-      <video controls onmouseover="play()" style="width:100vw;">
+    <div id="vid" class="cont">
+      <video controls onmouseover="play()" style="width:95vw;">
       <source src="img/CTC_Video.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
@@ -133,15 +183,15 @@
       </div>
     -->
 
-    <footer>
-      <div class="row">
-        <div class="col">
+    <footer class="cont">
+      <div class="row-cust">
+        <div class="col-cust">
           <p class = "fleft" style="font-size: 15px; color: white;">Your contributions are tax-deductible to the fullest extent of the law</p>
         </div>
-        <div class="col">
+        <div class="col-cust">
             <p class = "" style="font-size: 20px; color: white;">CHALLENGE TO CONQUER.ORG</p>
         </div>
-        <div class="col">
+        <div class="col-cust">
           <p class = "fright" style="font-size: 15px; color: white;">Organized for Charitable purposes under United States IRS Section 501(c)(3)</p>
         </div>
       </div>
@@ -149,7 +199,6 @@
       
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/header.js"></script>
-
   </body>
 </html>
 
