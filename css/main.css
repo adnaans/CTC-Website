@@ -44,10 +44,16 @@
 
 .fleft{
     float: left;
+    margin-bottom: 0;
+}
+
+.fcenter{
+    margin-bottom: 0;
 }
 
 .fright{
     float: right;
+    margin-bottom: 0;
 }
 
 footer div div p{
@@ -65,9 +71,14 @@ footer div div p{
         width: 100%;
         float: none;
     }
-
+    .fleft{
+        margin: 10px;
+    }
+    .fright{
+        margin: 10px;
+    }
     footer{
-        height: 140px;
+        height: 130px;
     }
 }
 
@@ -264,7 +275,7 @@ svg{
 footer{
     width: 100%;
     background-color: #17202A;
-    padding: 1.5%;
+    padding: 2vw;
     margin-bottom: 0!important;
 }
 .navbar-toggler{
