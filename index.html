@@ -55,42 +55,36 @@
       </div>
     </div>
 
-    <div class="cont">
+    <div class="swiper-background cont" id="swiper">
+      <h2><center>Who you can help</center></h2>
       <div class="swiper-container" id="slider">
           <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
-                  <div style="display: table; height: 500px; overflow: hidden;">
-                      <div style="display: table-cell; vertical-align: middle;">
-                        <h3 style="vertical-align: middle;">
-                          Donate to help disabled children in India.
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="img/DSC_0471.JPG" style="height: 100%; width: 50%; align: right;" alt="Second slide">
-                </div>
-              <div class="swiper-slide">
-                <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
-                  <div style="display: table; height: 500px; overflow: hidden;">
-                      <div style="display: table-cell; vertical-align: middle;">
-                        <h3 style="vertical-align: middle;">
-                          Donate to help disabled children in India.
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                  <img src="img/DSC_0117.JPG" style="height: 100%; width:50%; align: right;" alt="First slide">
-                </div>
-              
+            <div class="swiper-slide">
+              <img src="/img/slideshow/01.jpg" alt="First slide">
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/02.jpg" alt="Second slide">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/03.jpg" alt="Third slide">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/04.jpg" alt="Fourth slide">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/05.jpg" alt="Fifth slide">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/06.jpg" alt="Sixth slide">
+            </div>
           </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
+      </div>
 
        <!-- Swiper JS -->
     <script src="js/swiper.min.js"></script>
@@ -100,26 +94,29 @@
         pagination: '.swiper-pagination',
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
+        spaceBetween: 500,
+        slidesPerView: 1,
         paginationClickable: true,
-        spaceBetween: 30,
         centeredSlides: true,
-        autoplay: 5000,
+        autoplay: 10000,
+        speed: 750,
         autoplayDisableOnInteraction: false
     });
     </script>
 
     <div class="cont">
         <div id="donations">
-          <div class="tabs">
+          <h2>How your donations can help</h2>
+          <!--<div class="tabs">
             <div id="1-t"class="sel"><h4>Accomodations</h4></div>
             <div id="2-t" class="u-sel"><h4>Rehabilitation</h4></div>
             <div id="3-t" class="u-sel"><h4>Meals</h4></div>
             <div id="4-t" class="u-sel"><h4>School Supplies</h4></div>
             <div id="5-t" class="u-sel"><h4>Medical Care/Supplies</h4></div>
             <div id="6-t" class="u-sel"><h4>Equipment</h4></div>
-          </div>
+          </div>-->
           <div class="tabwindow">
-            <div id="1-tw" class="row active-tw">
+            <div id="1-tw" class="row ">
               <div class="col tabtxt">
                 <p>"Put in text on accomodations"</p>
               </div>
@@ -127,7 +124,7 @@
                 <img src="img/accomodations.JPG">
               </div>
             </div>
-            <div id="2-tw" class="row-cust inactive-tw">
+            <div id="2-tw" class="row-cust ">
               <div class="col tabimg">
                   <img src="img/rehabilitation.JPG">
               </div>
@@ -135,15 +132,15 @@
                 <p>"Put in text on rehabilitation"</p>
               </div>
             </div>
-            <div id="3-tw" class="row-cust inactive-tw">
+            <div id="3-tw" class="row-cust ">
               <div class="col tabtxt">
                 <p>"Put in text on meals"</p>
               </div>
-              <div class="col tabimg sel-win">
+              <div class="col tabimg sel-w">
                 <img src="img/meal.JPG">
               </div>
             </div>
-            <div id="4-tw" class="row-cust inactive-tw">
+            <div id="4-tw" class="row-cust ">
               <div class="col tabimg">
                   <img src="img/schoolsupplies.JPG">
               </div>
@@ -151,7 +148,7 @@
                 <p>"Put in text on school supplies"</p>
               </div>
             </div>
-            <div id="5-tw" class="row-cust inactive-tw">
+            <div id="5-tw" class="row-cust ">
               <div class="col tabtxt">
                 <p>"Put in text on medical care/supplies"</p>
               </div>
@@ -159,7 +156,7 @@
                 <img src="img/doctor-checkup.JPG">
               </div>
             </div>
-            <div id="6-tw" class="row-cust inactive-tw">
+            <div id="6-tw" class="row-cust ">
               <div class="col tabimg">
                 <img src="img/wheelchairs.JPG">
               </div>

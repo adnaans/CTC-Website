@@ -1,5 +1,4 @@
-$(document).ready(function(){
-    
+/*$(document).ready(function(){
     $('#1-t').click(function (event){
         $('.sel').addClass('u-sel');
         $('.sel').removeClass('sel');
@@ -61,4 +60,4 @@ $(document).ready(function(){
         $('#6-tw').addClass('active-tw');
         $('#6-tw').removeClass('inactive-tw');
     });
-});
+});*/

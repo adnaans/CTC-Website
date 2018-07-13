@@ -100,10 +100,11 @@ h1 {
 }
 
 #lead{
-    background: url("../img/santosh.png") no-repeat top center fixed;
+    margin-top: 70px;
+    background: url("/img/santosh.png") no-repeat top center fixed;
     background-size: cover;
     font-size: 50px;
-    height:50vh;
+    height:75vh;
     width: 100%;
 }
 
@@ -114,7 +115,7 @@ h1 {
 
 .dimmedimg{
     margin: 0;
-    padding: 20vh 0px 20vh 0px;
+    padding: 15% 0px 15% 0px;
     color: white;
     text-align: center;
     font-size: 50px;
@@ -146,8 +147,15 @@ h1 {
 #follow{
     text-align: center;
     font-size: 50px;
-    padding: 30px 0px 30px 0px;
-    background-color: #8effa7;
+    padding: 4% 3% 4% 3%;
+    background-color: white;
+    color: #797979;
+}
+
+
+
+#follow p{
+    font-weight: 300;
 }
 
 .sel:hover{
@@ -225,7 +233,7 @@ p{
 } */
 
 .cont{
-    padding: 4vw 2.5vw 4vw 2.5vw;
+    padding: 3.5vw 2.5vw 3.5vw 2.5vw;
 }
 
 #donations{
@@ -331,4 +339,61 @@ footer div div p{
 #lead h1{
     font-family: "Montserrat"!important;
     font-weight: 400!important;
+}
+
+.swiper-slide img{
+    height: 100%;
+}
+
+#swiper{
+    height: 90vh;
+    background-image: url("/img/mithra.JPG");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+}
+
+.swiper-background{
+    margin: 0;
+    padding: 2vh 20vh 2vh 20vh;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+
+.swiper-background:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#swiper h2{
+    z-index: 1;
+    color: #a2d7ff;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+#donations h2{
+    color: #8effa7;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+
+#slider{
+    height: 90%;
+    z-index: 1;
 }
