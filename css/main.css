@@ -377,7 +377,8 @@ footer div div p{
 
 #swiper h2{
     z-index: 1;
-    color: #a2d7ff;
+    color: #8effa7;
+    /* color: #a2d7ff; */
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -387,7 +388,8 @@ footer div div p{
 }
 
 #donations h2{
-    color: #8effa7;
+    /*color: #8effa7;*/
+    color: #a2d7ff;
     font-weight: 400;
     font-size: 3rem;
 }
