@@ -29,6 +29,8 @@
     padding: 0
 }
 
+
+
 @media (min-width: 900px) {
     .row-cust { width: 100%; display: table; table-layout: fixed; }
     .col-cust { display: table-cell; }
@@ -404,4 +406,23 @@ footer div div p{
 .tab-head{
     color:rgb(61,146,215)!important;
     font-size: 2.5rem!important;
+}
+
+
+@media (max-width: 900px) {
+    .forward{
+        display: none;
+    }
+    .reverse{
+        display: block;
+    }
+}
+
+@media (min-width: 900px) {
+    .forward{
+        display: block;
+    }
+    .reverse{
+        display: none;
+    }
 }
