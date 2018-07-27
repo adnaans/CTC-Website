@@ -416,6 +416,12 @@ footer div div p{
     .tabimg img{
         width: 80vw;
     }
+    .reverse{
+        margin-top: 5%;
+    }
+    .tab-head{
+        margin-top: 2%;
+    }
 }
 
 @media (min-width: 900px) {
