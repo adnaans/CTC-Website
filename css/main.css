@@ -182,9 +182,6 @@ h1 {
 .tabimg{
     padding: 2.5%;
 }
-.tabimg img{
-    width: 42.75vw;
-}
 
 .tabtxt{
     padding: 5%;
@@ -416,6 +413,9 @@ footer div div p{
     .reverse{
         display: block;
     }
+    .tabimg img{
+        width: 80vw;
+    }
 }
 
 @media (min-width: 900px) {
@@ -424,5 +424,8 @@ footer div div p{
     }
     .reverse{
         display: none;
+    }
+    .tabimg img{
+        width: 42.75vw;
     }
 }
