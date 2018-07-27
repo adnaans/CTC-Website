@@ -377,7 +377,7 @@ footer div div p{
 
 #swiper h2{
     z-index: 1;
-    color: #8effa7;
+    color: rgb(61,146,215);
     /* color: #a2d7ff; */
     margin-left: auto;
     margin-right: auto;
@@ -389,7 +389,7 @@ footer div div p{
 
 #donations h2{
     /*color: #8effa7;*/
-    color: #a2d7ff;
+    color: rgb(146,191,69);
     font-weight: 400;
     font-size: 3rem;
 }
@@ -398,4 +398,10 @@ footer div div p{
 #slider{
     height: 90%;
     z-index: 1;
+}
+
+
+.tab-head{
+    color:rgb(61,146,215)!important;
+    font-size: 2.5rem!important;
 }
