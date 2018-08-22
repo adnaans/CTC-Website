@@ -233,10 +233,18 @@ p{
 
 .cont{
     padding: 3.5vw 2.5vw 3.5vw 2.5vw;
+    text-align: center;
 }
 
 #donations{
     text-align: center;
+}
+
+.summary{
+    text-align: center;
+    color: #797979;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 nav{
@@ -356,11 +364,20 @@ footer div div p{
 
 .swiper-background{
     margin: 0;
-    padding: 2vh 20vh 2vh 20vh;
     color: white;
     text-align: center;
     font-size: 50px;
     position: relative;
+}
+
+.swiper-container{
+    margin: 2vh 20vh 2vh 20vh;
+}
+
+.header h1{
+    margin-top: 2vh;
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .swiper-background:after{
@@ -405,7 +422,18 @@ footer div div p{
     font-size: 2.5rem!important;
 }
 
+#addinf{
+    padding-top: 5vh;
+}
 
+h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.bc{
+    color: rgb(61,146,215)
+}
 @media (max-width: 900px) {
     .forward{
         display: none;
