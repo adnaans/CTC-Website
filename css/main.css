@@ -194,7 +194,7 @@ h1 {
 p{
     font-size: 25px;
     font-family: 'Montserrat';
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .cont-cust1{
@@ -246,6 +246,7 @@ p{
     padding-left: 5vw;
     padding-right: 5vw;
 }
+
 
 nav{
     padding: 0 10vw;
