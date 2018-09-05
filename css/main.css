@@ -394,7 +394,6 @@ footer div div p{
 
 #swiper h2{
     z-index: 1;
-    color: rgb(61,146,215);
     /* color: #a2d7ff; */
     margin-left: auto;
     margin-right: auto;
@@ -405,8 +404,6 @@ footer div div p{
 }
 
 #donations h2{
-    /*color: #8effa7;*/
-    color: rgb(146,191,69);
     font-weight: 400;
     font-size: 3rem;
 }
@@ -433,8 +430,14 @@ h2{
 }
 
 .bc{
-    color: rgb(61,146,215)
+    color: rgb(61,146,215);
 }
+
+.gc{
+    color: rgb(146,191,69);
+}
+
+
 @media (max-width: 900px) {
     .forward{
         display: none;
