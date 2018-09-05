@@ -117,7 +117,7 @@ h1 {
 
 .dimmedimg{
     margin: 0;
-    padding: 15% 0px 15% 0px;
+    padding: 25vh 0px 25vh 0px;
     color: white;
     text-align: center;
     font-size: 50px;
@@ -468,6 +468,6 @@ h2{
     }
 }
 
-#abtheader{
+.header{
     padding-bottom: 2.8vh;
 }
