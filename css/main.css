@@ -199,10 +199,8 @@ p{
     font-size: 25px;
     font-family: 'Montserrat';
     font-weight: 300;
-    text-align: center;
+    text-align: left;
     color: #797979;
-    padding-left: 5vw;
-    padding-right: 5vw;
     letter-spacing: 0.5px;
 }
 
@@ -241,7 +239,7 @@ p{
 } */
 
 .cont{
-    padding: 3.5vw 2.5vw 3.5vw 2.5vw;
+    padding: 3.5vh 2.5vw 3.5vh 2.5vw;
     text-align: center;
 }
 
@@ -257,6 +255,10 @@ nav{
     color:#2C3E50;
     background-color: white;
     -webkit-transition: 0.5s;
+}
+
+.pheader{
+    text-align: left;
 }
 
 #graphic{
@@ -420,7 +422,6 @@ footer div div p{
     position: relative;
     overflow: hidden;
     font-weight: 400;
-    font-size: 3rem;
 }
 
 #donations h2{
@@ -438,6 +439,7 @@ footer div div p{
 .tab-head{
     color:rgb(61,146,215)!important;
     font-size: 2.5rem!important;
+    text-align: left;
 }
 
 #addinf{
@@ -486,6 +488,12 @@ h2{
     }
 }
 
+@media (min-width: 700px) {
+    #swiper h2{
+        font-size: 3rem;
+    }
+}
+
 @media (max-width: 700px){
     p {
         font-size: 18px;
@@ -506,6 +514,7 @@ h2{
 }
 
 .header{
+    padding-top: 7vh;
     padding-bottom: 2.8vh;
 }
 
