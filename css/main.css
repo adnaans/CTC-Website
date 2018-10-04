@@ -82,6 +82,10 @@ footer div div p{
     footer{
         height: 130px;
     }
+    .don-h2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 
 html {
@@ -506,6 +510,9 @@ h2{
     }
     .addinf-text{
         font-size: 18px;
+    }
+    .tab-head{
+        font-size: 30px;
     }
 }
 
