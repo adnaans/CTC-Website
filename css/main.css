@@ -185,10 +185,12 @@ h1 {
 
 .tabimg{
     padding: 2.5%;
+    vertical-align: middle;
 }
 
 .tabtxt{
     padding: 5%;
+    vertical-align: middle;
 }
 
 .tabtxt p{
