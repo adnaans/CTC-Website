@@ -110,7 +110,7 @@ h1 {
     background: url("/img/santosh.png") no-repeat top center fixed;
     background-size: cover;
     font-size: 50px;
-    height:75vh;
+    height:50vh;
     width: 100%;
 }
 
@@ -121,7 +121,8 @@ h1 {
 
 .dimmedimg{
     margin: 0;
-    padding: 25vh 0px 25vh 0px;
+    /*padding: 16vh 0px 16vh 0px;*/
+    /*vertical-align: middle;*/
     color: white;
     text-align: center;
     font-size: 50px;
@@ -140,6 +141,9 @@ h1 {
 }
 
 .dimmed-msg{
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
     position: relative;
     color: white;
     z-index: 1;
