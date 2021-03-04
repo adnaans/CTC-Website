@@ -544,3 +544,11 @@ h2{
     margin: 40px 0px 40px 0px;
 }
 
+#management .row .col-lg-4 {
+  float:left;
+}
+
+
+#team-heading {
+  color: rgb(61,146,215);
+}
