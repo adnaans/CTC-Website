@@ -1,91 +1,111 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset=utf-8>
-    <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-    <link rel="shortcut icon" href="img/favicons/favicon.ico">
-    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/main.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/swiper.min.css">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Challenge To Conquer</title>
 
-    <title>Challenge to Conquer</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="logajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="logry.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <script src="log/maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+ <!-- <link rel="shortcut icon" href="img/favicons/favicon.ico"> -->
+ <!-- Sachi's comments -->
+  <script src="loger.js"></script>
 
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
 
-    <script src="/js/jquery-3.3.1.min.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="nav-spaced">
-        <a id="logo" href="index.html"><img src="img/logo.png"></a>
-        <a href="index.html" class="no-underline" style="margin-left: 5px;">CHALLENGE TO CONQUER</a>
-      </div>
-      <button class="navbar-toggler no-outline" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <svg width="27px" height="14px" viewBox="0 0 27 14" version="1.1">
-          <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
-            <polygon id="Arrow" fill-rule="nonzero" points="13.4999996 13.9214282 0.6 1.17499997 1.82857139 0.1 13.4999996 11.7714282 25.1714278 0.1 26.3999992 1.17499997"></polygon>
-          </g>
-        </svg>
-      </button>
-      <div class="collapse navbar-collapse nav-spaced" id="navbarNavAltMarkup">
-        <div class="navbar-nav left">
-          <a class="nav-item nav-link active" href="#"><strong>HOME <span class="sr-only">(current)</span></strong></a>
-          <a class="nav-item nav-link" href="/about">ABOUT</a>
-          <a class="nav-item nav-link" href="/projects">PROJECTS</a>
+
+</head>
+<body>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="logo" href="index.html"><img src="img/logo.png" style="height: 50px; width: 50px; margin: 0px;"></a>
+                <a class="navbar-brand" href="index.html" style="margin-left: 5px;">CHALLENGE TO CONQUER</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <li style="margin-left: 25px">
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="about.html#FAQ">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="donate.html">Donate</a>
+                    </li>
+                    <li>
+                      <a href="about.html#about-mithra"> Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="navbar-nav right">
-          <a class="nav-item nav-link" href="/donate">DONATE</a>
-          <a class="nav-item nav-link" href="/contact">CONTACT</a>
-        </div>
-      </div>
+        <!-- /.container-fluid -->
     </nav>
+  <div id="mainimg">
+    <img src="img/Annual Day 3.jpg" style="width: 100%; margin:0px; filter: brightness(90%);">
+  </div>
+  <br>
+  <div class="wording">
+  <h1> Rehabilitating Mentally <br> and/or Physically Challenged <br> Children in India </h1>
 
-    <div id="lead" class="dimmedimg"><h1 class="dimmed-msg">We have a <font style="color: rgb(61,146,215);">Challenge </font> to <font style="color: rgb(146,191,69);">Conquer</font></h1></div>
-    
-    <div id="follow" class="cont">
-      <div class="cont-cust1">
-        <p style="margin-bottom:0">
-          We fund qualified initiatives and organizations providing rehabilitative services and education opportunities to challenged and under priviledged children in India.
-          With your generous donations, we can change the lives of thousands of challenged individuals.
-        </p>
-      </div>
-    </div>
-
-    <div class="swiper-background cont" id="swiper">
-      <h2 class = "bc"><center>Who you can help</center></h2>
-      <div class="swiper-container" id="slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="/img/slideshow/01.jpg" alt="First slide">
+  <div class="swiper-container" id="slider" style="margin-top:0%;">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
+              <div style="display: table; height: 500px; overflow: hidden;">
+                  <div style="display: table-cell; vertical-align: middle;">
+                    <h3 style="vertical-align: middle;">
+                      Donate to help disabled children in India.
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <img src="img/DSC_0471.JPG" style="height: 100%; width: 50%; align: right;" alt="Second slide">
             </div>
-            <div class="swiper-slide">
-              <img src="/img/slideshow/02.jpg" alt="Second slide">
+          <div class="swiper-slide">
+            <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
+              <div style="display: table; height: 500px; overflow: hidden;">
+                  <div style="display: table-cell; vertical-align: middle;">
+                    <h3 style="vertical-align: middle;">
+                      Donate to help disabled children in India.
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <img src="img/DSC_0117.JPG" style="height: 100%; width:50%; align: right;" alt="First slide">
             </div>
-            <div class="swiper-slide">
-              <img src="/img/slideshow/03.jpg" alt="Third slide">
-            </div>
-            <div class="swiper-slide">
-              <img src="/img/slideshow/04.jpg" alt="Fourth slide">
-            </div>
-            <div class="swiper-slide">
-              <img src="/img/slideshow/05.jpg" alt="Fifth slide">
-            </div>
-            <div class="swiper-slide">
-              <img src="/img/slideshow/06.jpg" alt="Sixth slide">
-            </div>
-          </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
-          <!-- Add Arrows -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+          
         </div>
-      </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</div>
 
-       <!-- Swiper JS -->
+    <!-- Swiper JS -->
     <script src="js/swiper.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
@@ -93,231 +113,63 @@
         pagination: '.swiper-pagination',
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        spaceBetween: 500,
-        slidesPerView: 1,
         paginationClickable: true,
+        spaceBetween: 30,
         centeredSlides: true,
-        autoplay: 10000,
-        speed: 750,
+        autoplay: 5000,
         autoplayDisableOnInteraction: false
     });
     </script>
 
-    <div class="cont">
-        <div id="donations">
-          <h2 class = "gc">How your donations change lives</h2>
-          <!--<div class="tabs">
-            <div id="1-t"class="sel"><h4>Accomodations</h4></div>
-            <div id="2-t" class="u-sel"><h4>Rehabilitation</h4></div>
-            <div id="3-t" class="u-sel"><h4>Meals</h4></div>
-            <div id="4-t" class="u-sel"><h4>School Supplies</h4></div>
-            <div id="5-t" class="u-sel"><h4>Medical Care/Supplies</h4></div>
-            <div id="6-t" class="u-sel"><h4>Equipment</h4></div>
-          </div>-->
-          <div class="tabwindow forward">
-           
-            <div id="1-tw" class="row-cust ">
-              <div class="col tabimg">
-                  <img src="img/occTherapy.JPG">
-              </div>
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Rehabilitation</h2>
-                <p>
-                    Many differently abled children do not reach many of the developmental milestones in accordance with their chronological age.
-                    Occupational therapy sets the foundation for the 'habilitation' of such children to
-                    <!--
-                <ul>
-                    <li>Develop these milestones</li>
-                    <li>Promote independence in all activities of daily living</li>
-                    <li>Improve attention and concentration</li>
-                    <li>Achieve balance in walking and gait</li>
-                </ul>
-                  -->
-                </p>
-              </div>
-            </div>
-            <div id="2-tw" class="row-cust ">
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Vocational Training</h2>
-                <p>
-                  <p>
-                    Young adults are provided skills through  Vocational training with an  aim  to help them go back to society and earn a livelihood.
-                </p>
-             <!--
-                <ul>
-                    <li>Tailoring and Embroidery : make thread and needle work based Greeting Cards, embroidered Handkerchiefs and Table cloths</li>
-                    <li>Making of decorated candles and scented candles</li>
-                    <li>Envelope making</li>
-                    <li>Block and Screen Printing</li>
-                </ul>
-                  -->
-                </p>
-              </div>
-              <div class="col tabimg sel-w">
-                <img src="img/vocational.JPG">
-              </div>
-            </div>
-            <div id="3-tw" class="row-cust ">
-              <div class="col tabimg">
-                  <img src="img/medical.JPG">
-              </div>
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Medical and Health Care</h2>
-                <p>Children are provided comprehensive and prompt health care and medication by the in-house physician with supporting nursing staff.
-                    Health is also constantly monitored by periodic check ups and surveillance.
-                    Medical help is also made available to the poor and needy in the neighborhood.</p>
-              </div>
-            </div>
-            <div id="4-tw" class="row-cust ">
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Residential Facilities</h2>
-                <p>
-                  We provide residential facilities to the needy and deserving . Separate dormitories are available for Boys and Girls.
-                  The hostel is backed up by a hygienic Kitchen and dining hall to provide wholesome food.
-                </p>
-              </div>
-              <div class="col tabimg">
-                <img src="img/residential.JPG">
-              </div>
-            </div>
-            <div id="5-tw" class="row-cust ">
-              <div class="col tabimg">
-                <img src="img/Premashram.gif">
-              </div>
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Equipment</h2>
-                  <p>Our focus is on increasing literacy among the youth in rural, remote villages.
-                  An increase in literacy will lead to a decrease in poverty/hunger</p>
-              </div>
-            </div>
-            
-             <div id="6-tw" class="row ">
-              <div class="col tabtxt">
-                <h2 class = "don-h2 tab-head">Physiotherapy</h2>
-                <p>The primary aim of Physiotherapy is to make the children as mobile as possible and provide maximum possible independence.
-                  Training also given to develop balance, gait and walking. In children with CP efforts are made to correct contractures of joints,
-                  relax the spasticity in muscles and training to use calipers and knee orthosis.</p>
-              </div>
-              <div class="col tabimg">
-                <img src="img/physio.jpg">
-              </div>
-            </div>
-             
-          </div>
 
-          <div class="tabwindow reverse">
-            
-            <div id="1-tw" class="row-cust ">
-              <div class="col tabimg">
-                  <img src="img/occTherapy.JPG">
-              </div>
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Rehabilitation</h2>
-                <p>
-                    Many differently abled children do not reach many of the developmental milestones in accordance with their chronological age.
-                    Occupational therapy sets the foundation for the 'habilitation' of such children to
-                    <!--
-                <ul>
-                    <li>Develop these milestones</li>
-                    <li>Promote independence in all activities of daily living</li>
-                    <li>Improve attention and concentration</li>
-                    <li>Achieve balance in walking and gait</li>
-                </ul>
-                  -->
-                </p>
-              </div>
-            </div>
-            <div id="2-tw" class="row-cust ">
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Vocational Training</h2>
-                <p>
-                  <p>
-                    Young adults are provided skills through  Vocational training with an  aim  to help them go back to society and earn a livelihood.
-                </p>
-                  <!--
-                <ul>
-                    <li>Tailoring and Embroidery : make thread and needle work based Greeting Cards, embroidered Handkerchiefs and Table cloths</li>
-                    <li>Making of decorated candles and scented candles</li>
-                    <li>Envelope making</li>
-                    <li>Block and Screen Printing</li>
-                </ul>
-                  -->
-                </p>
-              </div>
-              <div class="col tabimg sel-w">
-                <img src="img/vocational.JPG">
-              </div>
-            </div>
-            <div id="3-tw" class="row-cust ">
-              <div class="col tabimg">
-                  <img src="img/medical.JPG">
-              </div>
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Medical and Health Care</h2>
-                <p>Children are provided comprehensive and prompt health care and medication by the in-house physician with his supporting nursing staff.
-                    Health is also constantly monitored by periodic check ups and surveillance.
-                    Medical help is also made available to the poor and needy in the neighborhood.</p>
-              </div>
-            </div>
-            <div id="4-tw" class="row-cust ">
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Residential Facilities</h2>
-                <p>
-                  We provide residential facilities to the needy and deserving . Separate dormitories are available for Boys and Girls.
-                  The hostel is backed up by a hygienic Kitchen and dining hall to provide wolesome food.
-                </p>
-              </div>
-              <div class="col tabimg">
-                <img src="img/residential.JPG">
-              </div>
-            </div>
-            <div id="5-tw" class="row-cust ">
-              <div class="col tabimg">
-                <img src="img/Premashram.gif">
-              </div>
-              <div class="col tabtxt">
-                  <h2 class = "don-h2 tab-head">Education</h2>
-                  <p>Our focus is on increasing literacy among the youth in rural, remote villages.
-                  An increase in literacy will lead to a decrease in poverty/hunger.</p>
-              </div>
-            </div>
-            
-            <div id="6-tw" class="row ">
-              <div class="col tabtxt">
-                <h2 class = "don-h2 tab-head">Physiotherapy</h2>
-                <p>The primary aim of Physiotherapy is to make the children as mobile as possible and provide maximum possible independence.
-                  Training also given to develop balance, gait and walking. In children with CP efforts are made to correct contractures of joints,
-                  relax the spasticity in muscles and training to use calipers and knee orthosis.</p>
-              </div>
-              <div class="col tabimg">
-                <img src="img/physio.jpg">
-              </div>
-            </div>
-            
-          </div>
-          
-          
-                <!--
-      <div>
-        <center><img id="graphic" src="img/graphic.png"></center>
-      </div>
-    -->
+  <div class="clearfix" style = "background-color: #4682B4; width: 100%; padding-bottom: 10px;">
+  <div style = "float: left; width: 50%; padding-top:10px; padding-left:10px;">
+    <video width="90%" controls onmouseover="play()" onmouseleave="pause()">
+    <source src="img/CTC_Video.mp4" type="video/mp4">\
+    Your browser does not support the video tag.
+    </video>
+  </div>
+   <div style = "float: left; width: 40%;">
+      <br>
+      <p style="font-size: 20px;">
+      <br>
+      The specific and primary purpose for which ChallengeToConquer.Org is organized is to rehabilitate physically and/or mentally challenged children in India, through funding qualified projects.</p>
+      <br>
+      <a class = "btn button" href = "about.html">Read More</a>
+    </div>
+  </div>
 
-    <footer>
-      <div class="row-cust">
-        <div class="col-cust">
-          <p class = "fleft" style="font-size: 15px; color: white;">Your contributions are tax-deductible to the fullest extent of the law</p>
-        </div>
-        <div class="col-cust">
-            <p class = "fcenter" style="font-size: 20px; color: white;">CHALLENGE TO CONQUER.ORG</p>
-        </div>
-        <div class="col-cust">
-          <p class = "fright" style="font-size: 15px; color: white;">Organized for Charitable purposes under United States IRS Section 501(c)(3)</p>
-        </div>
-      </div>
-    </footer>
-      
+  <div class="clearfix" style = "background-color: #AED6F1; width: 100%; padding-bottom: 10px;" id = "more">
+  <div style = "float: left; width: 30%">
+    <img src="img/014.jpg" width=100% >
+  </div>
+   <div style = "float: left; width: 40%;">
+      <br>
+      <p style="font-size: 20px;">
+      <br>
+      <strong>Donations Serve Many Purposes:</strong></p>
+      <ul style="font-size:20px; list-style-position: inside;">
+        <li>Meals</li>
+        <li>Rehabilitation For Challenged Children</li>
+        <li>Accomodations</li>
+        <li>Equipment</li>
+        <li>Medical Care and Supplies</li>
+        <li>School Supplies And Toys For Young Children</li>
+      </ul>
+      <br>
+      <a class = "btn button blue" href="donate.html" style="color: #000066; "> Click Here to Donate Now</a>
+      <br>
+    </div>
+    <div style = "float: left; width: 28%; margin-right: 5px;">
+       <img src="img/DSC_0105.JPG" width=100%>
+    </div>
+    </div>
 
-  </body>
-</html>
+  <footer style = "width: 100%; height: 100px;">
+<br>
+    <p style="font-size: 15px; color: white; float: right; margin-right: 20px">Organized for Charitable purposes under <br>United States IRS Section 501(c)(3)</p>
+    <p style="font-size: 15px; color: white; float: left; margin-left: 20px">Your contributions are tax-deductible <br> to the fullest extent of the law</p>
+     <p style="font-size: 20px; color: white; float: center; margin-left: 20px">CHALLENGE TO CONQUER.ORG</p>
+  
 
+</body>
